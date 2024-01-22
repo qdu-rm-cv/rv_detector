@@ -1,0 +1,16 @@
+# ninja log v5
+4203	4215	1705919050231978205	device/controller/libdevice_controller.a	cee759fe09d69da6
+4361	4372	1705895647787749207	device/libdevice.a	981705aa704f2ca6
+1	4361	1705895647775749014	device/CMakeFiles/device.dir/hik_camera.cpp.o	b68ba0f1d1684e3d
+2	4203	1705919050219981282	device/controller/CMakeFiles/device_controller.dir/robot.cpp.o	81de26d49aee7c08
+1	5054	1705918878401671413	device/camera/CMakeFiles/device_camera.dir/hik_camera.cpp.o	207e18e77ea3930c
+2924	2933	1705718487737386129	component/libmodule_component.a	f2d10ceb3da0c76a
+1	2924	1705718487725386274	component/CMakeFiles/module_component.dir/common.cpp.o	c9f407eaa036c532
+2	2178	1705918875525639772	detector/src/CMakeFiles/detector.dir/number_classifier.cpp.o	90f6fd54b2cfae21
+5054	5060	1705918878409671501	device/camera/libdevice_camera.a	a4aa9452a60f4e4f
+1	39	1705918873389616273	device/controller/CMakeFiles/device_controller.dir/crc16.cpp.o	5bcf502dc6e1ca8e
+1	3439	1705918876789653679	device/controller/CMakeFiles/device_controller.dir/usb.cpp.o	cabf698f738f017c
+4215	4375	1705919050391937167	detector/src/detector	7f77123d84c9d614
+1	2056	1705918875405638452	detector/src/CMakeFiles/detector.dir/detector.cpp.o	1deb2f14a701c758
+1	2319	1705918875669641357	detector/src/CMakeFiles/detector.dir/main.cpp.o	60ea4370e1a80556
+1	3352	1705918876701652710	device/controller/CMakeFiles/device_controller.dir/serial.cpp.o	31e2ebcfbb4ed24

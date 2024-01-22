@@ -1,0 +1,227 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						6
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "device",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-device-Release-22bacfc441dd46955858.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "device"
+				},
+				{
+					"build" : "device/camera",
+					"jsonFile" : "directory-device.camera-Release-54c5dcee058a6742dd1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "device/camera",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "device/controller",
+					"jsonFile" : "directory-device.controller-Release-1eb584b5dfc6dec94c9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "device/controller",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "detector",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-detector-Release-88eeb80a44b71327c89c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "detector"
+				},
+				{
+					"build" : "detector/src",
+					"jsonFile" : "directory-detector.src-Release-598767f49ba9eec5282d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "detector/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "component",
+					"jsonFile" : "directory-component-Release-10c134e6d1c711f4d753.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "component",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						4
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "device_camera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "device_controller",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "detector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "module_component",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "detector::@c8e148db8fd872ac899f",
+					"jsonFile" : "target-detector-Release-1fcf09dea0442f2b074c.json",
+					"name" : "detector",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "device_camera::@e079458569e9e45fc3a2",
+					"jsonFile" : "target-device_camera-Release-d6cbd2665526f8e01f3c.json",
+					"name" : "device_camera",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "device_controller::@b78bac5895ad9b811171",
+					"jsonFile" : "target-device_controller-Release-6518f92087ce0989e529.json",
+					"name" : "device_controller",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "module_component::@fceee1b25ae21d06598b",
+					"jsonFile" : "target-module_component-Release-bd55e1d96be8bb9ca148.json",
+					"name" : "module_component",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/song/Music/rv_detector/build",
+		"source" : "/home/song/Music/rv_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/device/camera -I/opt/MVS/include -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o device/camera/CMakeFiles/device_camera.dir/hik_camera.cpp.o -c /home/song/Music/rv_detector/device/camera/hik_camera.cpp",
+  "file": "/home/song/Music/rv_detector/device/camera/hik_camera.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/device/controller -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o device/controller/CMakeFiles/device_controller.dir/crc16.cpp.o -c /home/song/Music/rv_detector/device/controller/crc16.cpp",
+  "file": "/home/song/Music/rv_detector/device/controller/crc16.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/device/controller -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o device/controller/CMakeFiles/device_controller.dir/robot.cpp.o -c /home/song/Music/rv_detector/device/controller/robot.cpp",
+  "file": "/home/song/Music/rv_detector/device/controller/robot.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/device/controller -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o device/controller/CMakeFiles/device_controller.dir/serial.cpp.o -c /home/song/Music/rv_detector/device/controller/serial.cpp",
+  "file": "/home/song/Music/rv_detector/device/controller/serial.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/device/controller -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o device/controller/CMakeFiles/device_controller.dir/usb.cpp.o -c /home/song/Music/rv_detector/device/controller/usb.cpp",
+  "file": "/home/song/Music/rv_detector/device/controller/usb.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/detector/src -I/home/song/Music/rv_detector/detector/src/.. -I/home/song/Music/rv_detector/device/camera -I/opt/MVS/include -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -I/home/song/Music/rv_detector/device/controller -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o detector/src/CMakeFiles/detector.dir/main.cpp.o -c /home/song/Music/rv_detector/detector/src/main.cpp",
+  "file": "/home/song/Music/rv_detector/detector/src/main.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/detector/src -I/home/song/Music/rv_detector/detector/src/.. -I/home/song/Music/rv_detector/device/camera -I/opt/MVS/include -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -I/home/song/Music/rv_detector/device/controller -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o detector/src/CMakeFiles/detector.dir/detector.cpp.o -c /home/song/Music/rv_detector/detector/src/detector.cpp",
+  "file": "/home/song/Music/rv_detector/detector/src/detector.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/detector/src -I/home/song/Music/rv_detector/detector/src/.. -I/home/song/Music/rv_detector/device/camera -I/opt/MVS/include -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -I/home/song/Music/rv_detector/device/controller -isystem /home/song/environment/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o detector/src/CMakeFiles/detector.dir/number_classifier.cpp.o -c /home/song/Music/rv_detector/detector/src/number_classifier.cpp",
+  "file": "/home/song/Music/rv_detector/detector/src/number_classifier.cpp"
+},
+{
+  "directory": "/home/song/Music/rv_detector/build",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/song/Music/rv_detector/component -I/home/song/Music/rv_detector/build/generated -O3 -DNDEBUG -std=gnu++17 -o component/CMakeFiles/module_component.dir/common.cpp.o -c /home/song/Music/rv_detector/component/common.cpp",
+  "file": "/home/song/Music/rv_detector/component/common.cpp"
+}
+]

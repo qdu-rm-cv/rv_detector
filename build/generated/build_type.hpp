@@ -1,0 +1,80 @@
+#ifndef __GENERATED_BUILD_TYPE_HPP__
+#define __GENERATED_BUILD_TYPE_HPP__
+
+#include <string>
+
+#ifndef LEVEL_TRACE
+#define LEVEL_TRACE 0
+#endif
+
+#ifndef LEVEL_DEBUG
+#define LEVEL_DEBUG 1
+#endif
+
+#ifndef LEVEL_INFO
+#define LEVEL_INFO 2
+#endif
+
+#ifndef LEVEL_WARN
+#define LEVEL_WARN 3
+#endif
+
+#ifndef LEVEL_ERROR
+#define LEVEL_ERROR 4
+#endif
+
+#ifndef LEVEL_CRITICAL
+#define LEVEL_CRITICAL 5
+#endif
+
+#ifndef BUILD_TYPE
+#define BUILD_TYPE 
+#endif
+
+#ifndef BUILD_NN
+#define BUILD_NN 
+#endif
+
+#ifndef WITH_CAMERA
+#define WITH_CAMERA 
+#endif
+
+#ifndef WITH_MCU
+#define WITH_MCU 
+#endif
+
+#ifndef WITH_UI
+#define WITH_UI 
+#endif
+
+const std::string kPATH_ROOT = "";
+
+/* clang-format off */
+#if (BUILD_TYPE == LEVEL_DEBUG)
+const std::string kPATH_BUILD = "/build/";
+const std::string kPATH_IMAGE = "/assets/image/";
+const std::string kPATH_RUNTIME = "/runtime/";
+#elif (BUILD_TYPE == LEVEL_INFO)
+const std::string kPATH_BUILD = "../../../../../build/";
+const std::string kPATH_IMAGE = "../../../../../assets/image/";
+const std::string kPATH_RUNTIME = "../../../../../runtime/";
+#endif
+
+const int kIMAGE_HEIGHT = 480;
+const int kIMAGE_WIDTH = 640;
+
+/* clang-format on */
+
+namespace component {
+
+namespace logger {
+
+static __attribute__((unused)) int GetBuildType() {
+  return static_cast<int>(BUILD_TYPE);
+}
+
+}  // namespace logger
+
+}  // namespace component
+
+#endif  //  __GENERATED_BUILD_TYPE_HPP__
